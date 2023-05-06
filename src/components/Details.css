@@ -1,0 +1,43 @@
+.details {
+  /* background-color: red; */
+  /* margin-top: 40px; */
+  /* height: 200px; */
+  margin: 80px 0;
+}
+.card-details {
+  /* background-color: blue; */
+  /* margin-top: 40px; */
+  height: 80vh;
+  width: 80vw;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.imagediv img {
+  height: 300px;
+  width: 230px;
+  margin-right: 30px;
+}
+
+.genres {
+  background-color: #3C948B;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0px 0px 3px black;
+}
+.genresdiv {
+  display: flex;
+}
+.genresdiv h6{
+    margin: 0 5px;
+}
+.moviebookingbtn{
+    background-color: #42943c;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
